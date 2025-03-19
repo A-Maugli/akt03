@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'docs/**'
+      - '**.md'
+      - '.vscode/**'
+      - '.idea/**'
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  biz_kor-contracts-validate:
+    name: Run biz_kor-contracts release
+    secrets: inherit
+    uses: ./.github/workflows/biz_kor-contracts-ci.yaml
+
+  biz_kor-contracts-release:
+    name: Run biz_kor-contracts release
+    secrets: inherit
+    uses: ./.github/workflows/biz_kor-contracts-cd.yaml
+    needs: biz_kor-contracts-validate
+
+  biz_kor-frontend-validate:
+    name: Run biz_kor-frontend release
+    secrets: inherit
+    uses: ./.github/workflows/biz_kor-frontend-ci.yaml
+
+  biz_kor-frontend-release:
+    name: Run biz_kor-frontend release
+    secrets: inherit
+    uses: ./.github/workflows/biz_kor-frontend-cd.yaml
+    needs: biz_kor-frontend-validate

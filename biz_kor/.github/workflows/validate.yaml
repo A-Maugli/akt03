@@ -1,0 +1,14 @@
+name: Pull Request validation
+
+on: [pull_request]
+
+
+jobs:
+  biz_kor-contracts-ci:
+    name: Run biz_kor-contracts validation
+    uses: ./.github/workflows/biz_kor-contracts-ci.yaml
+
+  biz_kor-frontend-ci:
+    name: Run biz_kor-frontend validation
+    uses: ./.github/workflows/biz_kor-frontend-ci.yaml
+

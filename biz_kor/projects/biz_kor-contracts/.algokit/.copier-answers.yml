@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.2.2
+_src_path: gh:algorandfoundation/algokit-typescript-template
+author_email: 58363638+A-Maugli@users.noreply.github.com
+author_name: A-Maugli
+contract_name: biz_kor
+preset_name: production
+project_name: biz_kor-contracts
+
