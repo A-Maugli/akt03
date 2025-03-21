@@ -1,0 +1,4375 @@
+{
+  "version": 3,
+  "sources": [
+    "/workspaces/akt03/biz_kor/projects/biz_kor-contracts/smart_contracts/biz_kor/biz_kor.algo.ts"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAwDW;;AAAqB;;;;;;AAD9B;AAGS;;AAA6B;;AADtC;AAGS;AAA2B;AADpC;AAGS;AAAyB;AADlC;AAGS;;AAA2B;AADpC;AAGS;AAAqB;AAD9B;AAKS;;AAAqB;AAD9B;AAGS;;AAAuB;AADhC;AAjBF;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;AAoRE;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;;AAnBA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;;AAlBA;;AAAA;AAAA;AAAA;;AAAA;AA/OF;;;AAAA;AAAA;;AA+OE;;;AAAA;;AAvBA;;AAAA;AAAA;AAAA;;AAAA;AAxNF;;;AAAA;AAAA;;AAwNE;;;AAAA;;AApBA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;;AAhEA;;AAAA;AAAA;AAAA;;AAAA;AApIF;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAoIE;;;AAAA;;AARA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AARA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AARA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AARA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AARA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AARA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAzCA;;AAAA;AAAA;AAAA;;AAAA;AAlCF;;;AAAA;AAAA;;;AAAA;AAAA;;;AAAA;AAAA;;;AAAA;AAkCE;;;AAAA;;AAXA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAvBF;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAkCE;;;AAME;;AAAkC;;AAAlC;AAAA;AAlCO;AAAA;AAAA;AAAA;AAsCA;AAAP;AAIkB;AAOA;;AACA;;;;;;;;;;AAFD;;;AADV;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AADK;;;;;;;;;;;AADC;;;;;;;;;;;;;;;;;;;;;;;AADD;;;;;;;AAFM;;;AAAA;;;AAAA;AApCX;;;AAiDP;AAvDO;AA0DP;;AAAA;AAxDO;AAyDP;;AAAA;AAvDO;;AAwDP;;AAAA;AACkC;;AAAP;;AAAA;AAnDpB;;AAmDP;AAAA;AAjDO;;AAkDP;;AAAA;;AAhEO;AAAA;;AAAA;AAAA;AAwEP;AA1EO;AAAA;;AAAA;AAAA;AAkFP;AA9EO;AAAA;AAAA;AAAA;AAsFP;AAtFO;AAAA;AAAA;AAAA;AA8FP;AA1FO;AAAA;;AAAA;AAAA;AAkGP;AAhGO;AAAA;AAAA;AAAA;AAyGP;AArGO;AAAA;;AAAA;AAAA;AA6GP;AAOF;;;AAEgB;;AAtHP;AAAA;;AAAA;AAAA;AAsHA;AAAP;AA1HO;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAiIkC;;AAAA;;AAAtB;AAAA;;AAAA;;AAAA;AAEZ;AAAP;AAKgB;;AAFhB;AAAA;;;AAAA;;AAAA;;AAGqB;;AAHrB;AAAA;;;AAAA;;AAAA;;AAxIO;AAAA;;AAAA;AAAA;AAwIP;AAAA;;;;AAAA;AA1IO;AAAA;AAAA;AAAA;AAmJP;AAGA;AAGwB;;;;AADT;;;;;;;;AAFf;;;AAAA;;;AAAA;AAQA;AAEqB;;AACX;;;;;;;;AAHV;;;;AAAA;;;AAAA;AAQA;AAEqB;;AACN;;;;;;;;AAHf;;;AAAA;;;AAAA;AAQA;AAEqB;;AACX;;;;;;;AAHV;;;;AAAA;;;AAAA;AA9KO;AAAA;AAAA;AAAA;AAsL2C;AAAzB;AAtLlB;AAsLP;AAAA;;;;;;AAMF;;;AACE;;AAAkC;;AAAlC;AAAA;AAKuB;;AAA0B;;AAAA;AAAA;AAAA;;AAAA;AADxB;;AAErB;AAAJ;;;AACE;AACmB;;AACT;;AALa;;AAKb;;;;;AAFV;;;AAAA;;;AAAA;;AAYJ;;;AACE;;AAAkC;;AAAlC;AAAA;AA7MO;AAAA;AAAA;AAAA;AAkNP;AAIwB;;;;;;;;AAFT;;;;;AAFf;;;AAAA;;;AAAA;AAtNO;AAAA;AAAA;AAAA;AA+N2C;AAAzB;AA/NlB;AA+NP;AAAA;;AAQF;;;AACE;;AAAkC;;AAAlC;AAAA;AApOO;AAAA;AAAA;AAAA;AAyOP;AAIwB;;;;;;;;AAFT;;;;;AAFf;;;AAAA;;;AAAA;;AAaA;;AAAkC;;AAAlC;AAAA;AAtPO;AAAA;AAAA;AAAA;AA+PP;;;AAAA;;;AAAA;;;AAAA;;AAUA;;AAAkC;;AAAlC;AAAA;AAKA;AACmB;;AAEQ;;;AADjB;;;;;AAFV;;;AAAA;;;AAAA;",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "@algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1 4 3 600000"
+    },
+    "10": {
+      "op": "bytecblock \"asa_amt\" \"asa\" 0x151f7c75 \"asa_total\" \"asa_price\" \"end\" \"apv\" \"apca\" \"asa_v\""
+    },
+    "68": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "reinterpret_bool%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bool%0#0"
+      ]
+    },
+    "70": {
+      "op": "bnz main_after_if_else@2",
+      "stack_out": []
+    },
+    "73": {
+      "op": "bytec 6 // \"apv\"",
+      "defined_out": [
+        "\"apv\""
+      ],
+      "stack_out": [
+        "\"apv\""
+      ]
+    },
+    "75": {
+      "op": "pushbytes \"v1.4\"",
+      "defined_out": [
+        "\"apv\"",
+        "\"v1.4\""
+      ],
+      "stack_out": [
+        "\"apv\"",
+        "\"v1.4\""
+      ]
+    },
+    "81": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "82": {
+      "op": "bytec 7 // \"apca\"",
+      "defined_out": [
+        "\"apca\""
+      ],
+      "stack_out": [
+        "\"apca\""
+      ]
+    },
+    "84": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "\"apca\"",
+        "new_state_value%0#0"
+      ],
+      "stack_out": [
+        "\"apca\"",
+        "new_state_value%0#0"
+      ]
+    },
+    "86": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "87": {
+      "op": "bytec_3 // \"asa_total\"",
+      "defined_out": [
+        "\"asa_total\""
+      ],
+      "stack_out": [
+        "\"asa_total\""
+      ]
+    },
+    "88": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"asa_total\"",
+        "0"
+      ],
+      "stack_out": [
+        "\"asa_total\"",
+        "0"
+      ]
+    },
+    "89": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "90": {
+      "op": "bytec_0 // \"asa_amt\"",
+      "defined_out": [
+        "\"asa_amt\""
+      ],
+      "stack_out": [
+        "\"asa_amt\""
+      ]
+    },
+    "91": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"asa_amt\"",
+        "0"
+      ]
+    },
+    "92": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "93": {
+      "op": "bytec 4 // \"asa_price\"",
+      "defined_out": [
+        "\"asa_price\""
+      ],
+      "stack_out": [
+        "\"asa_price\""
+      ]
+    },
+    "95": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"asa_price\"",
+        "0"
+      ]
+    },
+    "96": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "97": {
+      "op": "bytec_1 // \"asa\"",
+      "defined_out": [
+        "\"asa\""
+      ],
+      "stack_out": [
+        "\"asa\""
+      ]
+    },
+    "98": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"asa\"",
+        "0"
+      ]
+    },
+    "99": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "100": {
+      "op": "bytec 5 // \"end\"",
+      "defined_out": [
+        "\"end\""
+      ],
+      "stack_out": [
+        "\"end\""
+      ]
+    },
+    "102": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"end\"",
+        "0"
+      ]
+    },
+    "103": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "104": {
+      "op": "bytec 8 // \"asa_v\"",
+      "defined_out": [
+        "\"asa_v\""
+      ],
+      "stack_out": [
+        "\"asa_v\""
+      ]
+    },
+    "106": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"asa_v\"",
+        "0"
+      ]
+    },
+    "107": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "108": {
+      "block": "main_after_if_else@2",
+      "stack_in": [],
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "110": {
+      "op": "bz main_bare_routing@22",
+      "stack_out": []
+    },
+    "113": {
+      "op": "pushbytess 0xb8447b36 0x42e7374e 0x41cccc92 0xef9577dc 0xd2291d4d 0x413e21e5 0xd9ad1c5f 0x0cb0d488 0xe64cc706 0x01a72538 0x434185ad 0xc48ba255 0x6f67f3f7 0xa41b0c84 0x2487c32c // method \"createApplication()void\", method \"bootstrap(uint64,uint64,uint64,uint64)void\", method \"getAppCreatorAddress()byte[]\", method \"getAppVersion()string\", method \"getAssetAmountInitial()uint64\", method \"getAssetAmount()uint64\", method \"getAssetPrice()uint64\", method \"getAssetId()uint64\", method \"getSellPeriodEnd()uint64\", method \"buyAsset(pay)void\", method \"sendAlgosToCreator()void\", method \"clawback(account)void\", method \"clawbackNoIncAmount(account)void\", method \"deleteAsset()void\", method \"deleteApplication()void\"",
+      "defined_out": [
+        "Method(bootstrap(uint64,uint64,uint64,uint64)void)",
+        "Method(buyAsset(pay)void)",
+        "Method(clawback(account)void)",
+        "Method(clawbackNoIncAmount(account)void)",
+        "Method(createApplication()void)",
+        "Method(deleteApplication()void)",
+        "Method(deleteAsset()void)",
+        "Method(getAppCreatorAddress()byte[])",
+        "Method(getAppVersion()string)",
+        "Method(getAssetAmount()uint64)",
+        "Method(getAssetAmountInitial()uint64)",
+        "Method(getAssetId()uint64)",
+        "Method(getAssetPrice()uint64)",
+        "Method(getSellPeriodEnd()uint64)",
+        "Method(sendAlgosToCreator()void)"
+      ],
+      "stack_out": [
+        "Method(createApplication()void)",
+        "Method(bootstrap(uint64,uint64,uint64,uint64)void)",
+        "Method(getAppCreatorAddress()byte[])",
+        "Method(getAppVersion()string)",
+        "Method(getAssetAmountInitial()uint64)",
+        "Method(getAssetAmount()uint64)",
+        "Method(getAssetPrice()uint64)",
+        "Method(getAssetId()uint64)",
+        "Method(getSellPeriodEnd()uint64)",
+        "Method(buyAsset(pay)void)",
+        "Method(sendAlgosToCreator()void)",
+        "Method(clawback(account)void)",
+        "Method(clawbackNoIncAmount(account)void)",
+        "Method(deleteAsset()void)",
+        "Method(deleteApplication()void)"
+      ]
+    },
+    "190": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(bootstrap(uint64,uint64,uint64,uint64)void)",
+        "Method(buyAsset(pay)void)",
+        "Method(clawback(account)void)",
+        "Method(clawbackNoIncAmount(account)void)",
+        "Method(createApplication()void)",
+        "Method(deleteApplication()void)",
+        "Method(deleteAsset()void)",
+        "Method(getAppCreatorAddress()byte[])",
+        "Method(getAppVersion()string)",
+        "Method(getAssetAmount()uint64)",
+        "Method(getAssetAmountInitial()uint64)",
+        "Method(getAssetId()uint64)",
+        "Method(getAssetPrice()uint64)",
+        "Method(getSellPeriodEnd()uint64)",
+        "Method(sendAlgosToCreator()void)",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "Method(createApplication()void)",
+        "Method(bootstrap(uint64,uint64,uint64,uint64)void)",
+        "Method(getAppCreatorAddress()byte[])",
+        "Method(getAppVersion()string)",
+        "Method(getAssetAmountInitial()uint64)",
+        "Method(getAssetAmount()uint64)",
+        "Method(getAssetPrice()uint64)",
+        "Method(getAssetId()uint64)",
+        "Method(getSellPeriodEnd()uint64)",
+        "Method(buyAsset(pay)void)",
+        "Method(sendAlgosToCreator()void)",
+        "Method(clawback(account)void)",
+        "Method(clawbackNoIncAmount(account)void)",
+        "Method(deleteAsset()void)",
+        "Method(deleteApplication()void)",
+        "tmp%2#0"
+      ]
+    },
+    "193": {
+      "op": "match main_createApplication_route@5 main_bootstrap_route@6 main_getAppCreatorAddress_route@7 main_getAppVersion_route@8 main_getAssetAmountInitial_route@9 main_getAssetAmount_route@10 main_getAssetPrice_route@11 main_getAssetId_route@12 main_getSellPeriodEnd_route@13 main_buyAsset_route@14 main_sendAlgosToCreator_route@15 main_clawback_route@16 main_clawbackNoIncAmount_route@17 main_deleteAsset_route@18 main_deleteApplication_route@19",
+      "stack_out": []
+    },
+    "225": {
+      "block": "main_after_if_else@26",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "226": {
+      "op": "return",
+      "stack_out": []
+    },
+    "227": {
+      "block": "main_deleteApplication_route@19",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%75#0"
+      ],
+      "stack_out": [
+        "tmp%75#0"
+      ]
+    },
+    "229": {
+      "op": "!",
+      "defined_out": [
+        "tmp%76#0"
+      ],
+      "stack_out": [
+        "tmp%76#0"
+      ]
+    },
+    "230": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "231": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%77#0"
+      ],
+      "stack_out": [
+        "tmp%77#0"
+      ]
+    },
+    "233": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "234": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.deleteApplication",
+      "op": "callsub deleteApplication"
+    },
+    "237": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "238": {
+      "op": "return",
+      "stack_out": []
+    },
+    "239": {
+      "block": "main_deleteAsset_route@18",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%71#0"
+      ],
+      "stack_out": [
+        "tmp%71#0"
+      ]
+    },
+    "241": {
+      "op": "!",
+      "defined_out": [
+        "tmp%72#0"
+      ],
+      "stack_out": [
+        "tmp%72#0"
+      ]
+    },
+    "242": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "243": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%73#0"
+      ],
+      "stack_out": [
+        "tmp%73#0"
+      ]
+    },
+    "245": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "246": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.deleteAsset",
+      "op": "callsub deleteAsset"
+    },
+    "249": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "250": {
+      "op": "return",
+      "stack_out": []
+    },
+    "251": {
+      "block": "main_clawbackNoIncAmount_route@17",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%65#0"
+      ],
+      "stack_out": [
+        "tmp%65#0"
+      ]
+    },
+    "253": {
+      "op": "!",
+      "defined_out": [
+        "tmp%66#0"
+      ],
+      "stack_out": [
+        "tmp%66#0"
+      ]
+    },
+    "254": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "255": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%67#0"
+      ],
+      "stack_out": [
+        "tmp%67#0"
+      ]
+    },
+    "257": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "258": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%1#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%1#0"
+      ]
+    },
+    "261": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%69#0"
+      ],
+      "stack_out": [
+        "tmp%69#0"
+      ]
+    },
+    "262": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%70#0"
+      ],
+      "stack_out": [
+        "tmp%70#0"
+      ]
+    },
+    "264": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.clawbackNoIncAmount",
+      "op": "callsub clawbackNoIncAmount",
+      "stack_out": []
+    },
+    "267": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "268": {
+      "op": "return",
+      "stack_out": []
+    },
+    "269": {
+      "block": "main_clawback_route@16",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%59#0"
+      ],
+      "stack_out": [
+        "tmp%59#0"
+      ]
+    },
+    "271": {
+      "op": "!",
+      "defined_out": [
+        "tmp%60#0"
+      ],
+      "stack_out": [
+        "tmp%60#0"
+      ]
+    },
+    "272": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "273": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%61#0"
+      ],
+      "stack_out": [
+        "tmp%61#0"
+      ]
+    },
+    "275": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "276": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%0#0"
+      ]
+    },
+    "279": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%63#0"
+      ],
+      "stack_out": [
+        "tmp%63#0"
+      ]
+    },
+    "280": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%64#0"
+      ],
+      "stack_out": [
+        "tmp%64#0"
+      ]
+    },
+    "282": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.clawback",
+      "op": "callsub clawback",
+      "stack_out": []
+    },
+    "285": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "286": {
+      "op": "return",
+      "stack_out": []
+    },
+    "287": {
+      "block": "main_sendAlgosToCreator_route@15",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%55#0"
+      ],
+      "stack_out": [
+        "tmp%55#0"
+      ]
+    },
+    "289": {
+      "op": "!",
+      "defined_out": [
+        "tmp%56#0"
+      ],
+      "stack_out": [
+        "tmp%56#0"
+      ]
+    },
+    "290": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "291": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%57#0"
+      ],
+      "stack_out": [
+        "tmp%57#0"
+      ]
+    },
+    "293": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "294": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.sendAlgosToCreator",
+      "op": "callsub sendAlgosToCreator"
+    },
+    "297": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "298": {
+      "op": "return",
+      "stack_out": []
+    },
+    "299": {
+      "block": "main_buyAsset_route@14",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%50#0"
+      ],
+      "stack_out": [
+        "tmp%50#0"
+      ]
+    },
+    "301": {
+      "op": "!",
+      "defined_out": [
+        "tmp%51#0"
+      ],
+      "stack_out": [
+        "tmp%51#0"
+      ]
+    },
+    "302": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "303": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%52#0"
+      ]
+    },
+    "305": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "306": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%54#0"
+      ],
+      "stack_out": [
+        "tmp%54#0"
+      ]
+    },
+    "308": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "tmp%54#0"
+      ],
+      "stack_out": [
+        "tmp%54#0",
+        "1"
+      ]
+    },
+    "309": {
+      "op": "-",
+      "defined_out": [
+        "gtxn_idx%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0"
+      ]
+    },
+    "310": {
+      "op": "dup",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_idx%0#0 (copy)"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_idx%0#0 (copy)"
+      ]
+    },
+    "311": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "313": {
+      "op": "intc_1 // pay",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0",
+        "pay"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0",
+        "pay"
+      ]
+    },
+    "314": {
+      "op": "==",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type_matches%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "315": {
+      "error": "transaction type is pay",
+      "op": "assert // transaction type is pay",
+      "stack_out": [
+        "gtxn_idx%0#0"
+      ]
+    },
+    "316": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.buyAsset",
+      "op": "callsub buyAsset",
+      "stack_out": []
+    },
+    "319": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "320": {
+      "op": "return",
+      "stack_out": []
+    },
+    "321": {
+      "block": "main_getSellPeriodEnd_route@13",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%45#0"
+      ],
+      "stack_out": [
+        "tmp%45#0"
+      ]
+    },
+    "323": {
+      "op": "!",
+      "defined_out": [
+        "tmp%46#0"
+      ],
+      "stack_out": [
+        "tmp%46#0"
+      ]
+    },
+    "324": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "325": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%47#0"
+      ],
+      "stack_out": [
+        "tmp%47#0"
+      ]
+    },
+    "327": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "328": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getSellPeriodEnd",
+      "op": "callsub getSellPeriodEnd",
+      "defined_out": [
+        "to_encode%6#0"
+      ],
+      "stack_out": [
+        "to_encode%6#0"
+      ]
+    },
+    "331": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%4#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%4#0"
+      ]
+    },
+    "332": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%4#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%4#0",
+        "0x151f7c75"
+      ]
+    },
+    "333": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%4#0"
+      ]
+    },
+    "334": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%49#0"
+      ],
+      "stack_out": [
+        "tmp%49#0"
+      ]
+    },
+    "335": {
+      "op": "log",
+      "stack_out": []
+    },
+    "336": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "337": {
+      "op": "return",
+      "stack_out": []
+    },
+    "338": {
+      "block": "main_getAssetId_route@12",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%40#0"
+      ],
+      "stack_out": [
+        "tmp%40#0"
+      ]
+    },
+    "340": {
+      "op": "!",
+      "defined_out": [
+        "tmp%41#0"
+      ],
+      "stack_out": [
+        "tmp%41#0"
+      ]
+    },
+    "341": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "342": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%42#0"
+      ],
+      "stack_out": [
+        "tmp%42#0"
+      ]
+    },
+    "344": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "345": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetId",
+      "op": "callsub getAssetId",
+      "defined_out": [
+        "to_encode%5#0"
+      ],
+      "stack_out": [
+        "to_encode%5#0"
+      ]
+    },
+    "348": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%3#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%3#0"
+      ]
+    },
+    "349": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%3#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%3#0",
+        "0x151f7c75"
+      ]
+    },
+    "350": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%3#0"
+      ]
+    },
+    "351": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%44#0"
+      ],
+      "stack_out": [
+        "tmp%44#0"
+      ]
+    },
+    "352": {
+      "op": "log",
+      "stack_out": []
+    },
+    "353": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "354": {
+      "op": "return",
+      "stack_out": []
+    },
+    "355": {
+      "block": "main_getAssetPrice_route@11",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "tmp%35#0"
+      ]
+    },
+    "357": {
+      "op": "!",
+      "defined_out": [
+        "tmp%36#0"
+      ],
+      "stack_out": [
+        "tmp%36#0"
+      ]
+    },
+    "358": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "359": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%37#0"
+      ],
+      "stack_out": [
+        "tmp%37#0"
+      ]
+    },
+    "361": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "362": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetPrice",
+      "op": "callsub getAssetPrice",
+      "defined_out": [
+        "to_encode%4#0"
+      ],
+      "stack_out": [
+        "to_encode%4#0"
+      ]
+    },
+    "365": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%2#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%2#0"
+      ]
+    },
+    "366": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%2#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%2#0",
+        "0x151f7c75"
+      ]
+    },
+    "367": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%2#0"
+      ]
+    },
+    "368": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%39#0"
+      ],
+      "stack_out": [
+        "tmp%39#0"
+      ]
+    },
+    "369": {
+      "op": "log",
+      "stack_out": []
+    },
+    "370": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "371": {
+      "op": "return",
+      "stack_out": []
+    },
+    "372": {
+      "block": "main_getAssetAmount_route@10",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%30#0"
+      ],
+      "stack_out": [
+        "tmp%30#0"
+      ]
+    },
+    "374": {
+      "op": "!",
+      "defined_out": [
+        "tmp%31#0"
+      ],
+      "stack_out": [
+        "tmp%31#0"
+      ]
+    },
+    "375": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "376": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0"
+      ]
+    },
+    "378": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "379": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetAmount",
+      "op": "callsub getAssetAmount",
+      "defined_out": [
+        "to_encode%3#0"
+      ],
+      "stack_out": [
+        "to_encode%3#0"
+      ]
+    },
+    "382": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%1#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%1#0"
+      ]
+    },
+    "383": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%1#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%1#0",
+        "0x151f7c75"
+      ]
+    },
+    "384": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%1#0"
+      ]
+    },
+    "385": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%34#0"
+      ],
+      "stack_out": [
+        "tmp%34#0"
+      ]
+    },
+    "386": {
+      "op": "log",
+      "stack_out": []
+    },
+    "387": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "388": {
+      "op": "return",
+      "stack_out": []
+    },
+    "389": {
+      "block": "main_getAssetAmountInitial_route@9",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0"
+      ]
+    },
+    "391": {
+      "op": "!",
+      "defined_out": [
+        "tmp%26#0"
+      ],
+      "stack_out": [
+        "tmp%26#0"
+      ]
+    },
+    "392": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "393": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%27#0"
+      ],
+      "stack_out": [
+        "tmp%27#0"
+      ]
+    },
+    "395": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "396": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetAmountInitial",
+      "op": "callsub getAssetAmountInitial",
+      "defined_out": [
+        "to_encode%2#0"
+      ],
+      "stack_out": [
+        "to_encode%2#0"
+      ]
+    },
+    "399": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "400": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "401": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "402": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "tmp%29#0"
+      ]
+    },
+    "403": {
+      "op": "log",
+      "stack_out": []
+    },
+    "404": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "405": {
+      "op": "return",
+      "stack_out": []
+    },
+    "406": {
+      "block": "main_getAppVersion_route@8",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "tmp%20#0"
+      ]
+    },
+    "408": {
+      "op": "!",
+      "defined_out": [
+        "tmp%21#0"
+      ],
+      "stack_out": [
+        "tmp%21#0"
+      ]
+    },
+    "409": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "410": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%22#0"
+      ],
+      "stack_out": [
+        "tmp%22#0"
+      ]
+    },
+    "412": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "413": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAppVersion",
+      "op": "callsub getAppVersion",
+      "defined_out": [
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0"
+      ]
+    },
+    "416": {
+      "op": "dup",
+      "defined_out": [
+        "to_encode%1#0",
+        "to_encode%1#0 (copy)"
+      ],
+      "stack_out": [
+        "to_encode%1#0",
+        "to_encode%1#0 (copy)"
+      ]
+    },
+    "417": {
+      "op": "len",
+      "defined_out": [
+        "length%1#0",
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0",
+        "length%1#0"
+      ]
+    },
+    "418": {
+      "op": "itob",
+      "defined_out": [
+        "as_bytes%1#0",
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0",
+        "as_bytes%1#0"
+      ]
+    },
+    "419": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "length_uint16%1#0",
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0",
+        "length_uint16%1#0"
+      ]
+    },
+    "422": {
+      "op": "swap",
+      "stack_out": [
+        "length_uint16%1#0",
+        "to_encode%1#0"
+      ]
+    },
+    "423": {
+      "op": "concat",
+      "defined_out": [
+        "encoded_value%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%1#0"
+      ]
+    },
+    "424": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "encoded_value%1#0"
+      ],
+      "stack_out": [
+        "encoded_value%1#0",
+        "0x151f7c75"
+      ]
+    },
+    "425": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "encoded_value%1#0"
+      ]
+    },
+    "426": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%24#0"
+      ],
+      "stack_out": [
+        "tmp%24#0"
+      ]
+    },
+    "427": {
+      "op": "log",
+      "stack_out": []
+    },
+    "428": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "429": {
+      "op": "return",
+      "stack_out": []
+    },
+    "430": {
+      "block": "main_getAppCreatorAddress_route@7",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%15#0"
+      ]
+    },
+    "432": {
+      "op": "!",
+      "defined_out": [
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "tmp%16#0"
+      ]
+    },
+    "433": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "434": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%17#0"
+      ]
+    },
+    "436": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "437": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAppCreatorAddress",
+      "op": "callsub getAppCreatorAddress",
+      "defined_out": [
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0"
+      ]
+    },
+    "440": {
+      "op": "dup",
+      "defined_out": [
+        "to_encode%0#0",
+        "to_encode%0#0 (copy)"
+      ],
+      "stack_out": [
+        "to_encode%0#0",
+        "to_encode%0#0 (copy)"
+      ]
+    },
+    "441": {
+      "op": "len",
+      "defined_out": [
+        "length%0#0",
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0",
+        "length%0#0"
+      ]
+    },
+    "442": {
+      "op": "itob",
+      "defined_out": [
+        "as_bytes%0#0",
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0",
+        "as_bytes%0#0"
+      ]
+    },
+    "443": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "length_uint16%0#0",
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0",
+        "length_uint16%0#0"
+      ]
+    },
+    "446": {
+      "op": "swap",
+      "stack_out": [
+        "length_uint16%0#0",
+        "to_encode%0#0"
+      ]
+    },
+    "447": {
+      "op": "concat",
+      "defined_out": [
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0"
+      ]
+    },
+    "448": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "encoded_value%0#0"
+      ],
+      "stack_out": [
+        "encoded_value%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "449": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "encoded_value%0#0"
+      ]
+    },
+    "450": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "tmp%19#0"
+      ]
+    },
+    "451": {
+      "op": "log",
+      "stack_out": []
+    },
+    "452": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "453": {
+      "op": "return",
+      "stack_out": []
+    },
+    "454": {
+      "block": "main_bootstrap_route@6",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "456": {
+      "op": "!",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "457": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "458": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%9#0"
+      ]
+    },
+    "460": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "461": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%0#0"
+      ]
+    },
+    "464": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "465": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[8]%1#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "reinterpret_bytes[8]%1#0"
+      ]
+    },
+    "468": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%11#0",
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "tmp%12#0"
+      ]
+    },
+    "469": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "reinterpret_bytes[8]%2#0",
+        "tmp%11#0",
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "tmp%12#0",
+        "reinterpret_bytes[8]%2#0"
+      ]
+    },
+    "472": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%11#0",
+        "tmp%12#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "tmp%12#0",
+        "tmp%13#0"
+      ]
+    },
+    "473": {
+      "op": "txna ApplicationArgs 4",
+      "defined_out": [
+        "reinterpret_bytes[8]%3#0",
+        "tmp%11#0",
+        "tmp%12#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "tmp%12#0",
+        "tmp%13#0",
+        "reinterpret_bytes[8]%3#0"
+      ]
+    },
+    "476": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%11#0",
+        "tmp%12#0",
+        "tmp%13#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "tmp%12#0",
+        "tmp%13#0",
+        "tmp%14#0"
+      ]
+    },
+    "477": {
+      "callsub": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.bootstrap",
+      "op": "callsub bootstrap",
+      "stack_out": []
+    },
+    "480": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "481": {
+      "op": "return",
+      "stack_out": []
+    },
+    "482": {
+      "block": "main_createApplication_route@5",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "484": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "485": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "486": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "488": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "489": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "490": {
+      "op": "return",
+      "stack_out": []
+    },
+    "491": {
+      "block": "main_bare_routing@22",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%79#0"
+      ],
+      "stack_out": [
+        "tmp%79#0"
+      ]
+    },
+    "493": {
+      "op": "bnz main_after_if_else@26",
+      "stack_out": []
+    },
+    "496": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%80#0"
+      ],
+      "stack_out": [
+        "tmp%80#0"
+      ]
+    },
+    "498": {
+      "op": "!",
+      "defined_out": [
+        "tmp%81#0"
+      ],
+      "stack_out": [
+        "tmp%81#0"
+      ]
+    },
+    "499": {
+      "error": "can only call when creating",
+      "op": "assert // can only call when creating",
+      "stack_out": []
+    },
+    "500": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "501": {
+      "op": "return",
+      "stack_out": []
+    },
+    "502": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.bootstrap",
+      "params": {
+        "assetPrice#0": "uint64",
+        "assetAmount#0": "uint64",
+        "sellPeriodLength#0": "uint64",
+        "assetValidityPeriod#0": "uint64"
+      },
+      "block": "bootstrap",
+      "stack_in": [],
+      "op": "proto 4 0"
+    },
+    "505": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "507": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "509": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "510": {
+      "error": "Allow only the app creator to call this method",
+      "op": "assert // Allow only the app creator to call this method",
+      "stack_out": []
+    },
+    "511": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "512": {
+      "op": "bytec_3 // \"asa_total\"",
+      "defined_out": [
+        "\"asa_total\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa_total\""
+      ]
+    },
+    "513": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "514": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "515": {
+      "op": "!",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "516": {
+      "error": "bootstrap has been already called",
+      "op": "assert // bootstrap has been already called",
+      "stack_out": []
+    },
+    "517": {
+      "op": "itxn_begin"
+    },
+    "518": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "520": {
+      "op": "dupn 3",
+      "defined_out": [
+        "inner_txn_params%0%%param_ConfigAssetClawback_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetFreeze_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetFreeze_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetClawback_idx_0#0"
+      ]
+    },
+    "522": {
+      "op": "itxn_field ConfigAssetClawback",
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetFreeze_idx_0#0"
+      ]
+    },
+    "524": {
+      "op": "itxn_field ConfigAssetFreeze",
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0"
+      ]
+    },
+    "526": {
+      "op": "itxn_field ConfigAssetReserve",
+      "stack_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "528": {
+      "op": "itxn_field ConfigAssetManager",
+      "stack_out": []
+    },
+    "530": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "531": {
+      "op": "itxn_field ConfigAssetDefaultFrozen",
+      "stack_out": []
+    },
+    "533": {
+      "op": "pushbytes \"https://algorand.hu/bk/bktovj.html\"",
+      "defined_out": [
+        "\"https://algorand.hu/bk/bktovj.html\""
+      ],
+      "stack_out": [
+        "\"https://algorand.hu/bk/bktovj.html\""
+      ]
+    },
+    "569": {
+      "op": "itxn_field ConfigAssetURL",
+      "stack_out": []
+    },
+    "571": {
+      "op": "pushbytes \"BKTOVJ1\"",
+      "defined_out": [
+        "\"BKTOVJ1\""
+      ],
+      "stack_out": [
+        "\"BKTOVJ1\""
+      ]
+    },
+    "580": {
+      "op": "itxn_field ConfigAssetUnitName",
+      "stack_out": []
+    },
+    "582": {
+      "op": "pushbytes \"Bizalmi K\\xc3\\xb6r Zseton\"",
+      "defined_out": [
+        "\"Bizalmi K\\xc3\\xb6r Zseton\""
+      ],
+      "stack_out": [
+        "\"Bizalmi K\\xc3\\xb6r Zseton\""
+      ]
+    },
+    "603": {
+      "op": "itxn_field ConfigAssetName",
+      "stack_out": []
+    },
+    "605": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "606": {
+      "op": "itxn_field ConfigAssetDecimals",
+      "stack_out": []
+    },
+    "608": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "assetAmount#0 (copy)"
+      ],
+      "stack_out": [
+        "assetAmount#0 (copy)"
+      ]
+    },
+    "610": {
+      "op": "itxn_field ConfigAssetTotal",
+      "stack_out": []
+    },
+    "612": {
+      "op": "intc_3 // 3",
+      "defined_out": [
+        "3"
+      ],
+      "stack_out": [
+        "3"
+      ]
+    },
+    "613": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "615": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "616": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "618": {
+      "op": "itxn_submit"
+    },
+    "619": {
+      "op": "bytec_1 // \"asa\"",
+      "defined_out": [
+        "\"asa\""
+      ],
+      "stack_out": [
+        "\"asa\""
+      ]
+    },
+    "620": {
+      "op": "itxn CreatedAssetID",
+      "defined_out": [
+        "\"asa\"",
+        "assetConfig.CreatedAssetID#0"
+      ],
+      "stack_out": [
+        "\"asa\"",
+        "assetConfig.CreatedAssetID#0"
+      ]
+    },
+    "622": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "623": {
+      "op": "bytec_3 // \"asa_total\"",
+      "stack_out": [
+        "\"asa_total\""
+      ]
+    },
+    "624": {
+      "op": "frame_dig -3",
+      "stack_out": [
+        "\"asa_total\"",
+        "assetAmount#0 (copy)"
+      ]
+    },
+    "626": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "627": {
+      "op": "bytec_0 // \"asa_amt\"",
+      "defined_out": [
+        "\"asa_amt\""
+      ],
+      "stack_out": [
+        "\"asa_amt\""
+      ]
+    },
+    "628": {
+      "op": "frame_dig -3",
+      "stack_out": [
+        "\"asa_amt\"",
+        "assetAmount#0 (copy)"
+      ]
+    },
+    "630": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "631": {
+      "op": "bytec 4 // \"asa_price\"",
+      "defined_out": [
+        "\"asa_price\""
+      ],
+      "stack_out": [
+        "\"asa_price\""
+      ]
+    },
+    "633": {
+      "op": "frame_dig -4",
+      "defined_out": [
+        "\"asa_price\"",
+        "assetPrice#0 (copy)"
+      ],
+      "stack_out": [
+        "\"asa_price\"",
+        "assetPrice#0 (copy)"
+      ]
+    },
+    "635": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "636": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "638": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "sellPeriodLength#0 (copy)",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0",
+        "sellPeriodLength#0 (copy)"
+      ]
+    },
+    "640": {
+      "op": "+",
+      "defined_out": [
+        "new_state_value%0#0"
+      ],
+      "stack_out": [
+        "new_state_value%0#0"
+      ]
+    },
+    "641": {
+      "op": "bytec 5 // \"end\"",
+      "defined_out": [
+        "\"end\"",
+        "new_state_value%0#0"
+      ],
+      "stack_out": [
+        "new_state_value%0#0",
+        "\"end\""
+      ]
+    },
+    "643": {
+      "op": "swap",
+      "stack_out": [
+        "\"end\"",
+        "new_state_value%0#0"
+      ]
+    },
+    "644": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "645": {
+      "op": "bytec 8 // \"asa_v\"",
+      "defined_out": [
+        "\"asa_v\""
+      ],
+      "stack_out": [
+        "\"asa_v\""
+      ]
+    },
+    "647": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "\"asa_v\"",
+        "assetValidityPeriod#0 (copy)"
+      ],
+      "stack_out": [
+        "\"asa_v\"",
+        "assetValidityPeriod#0 (copy)"
+      ]
+    },
+    "649": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "650": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "651": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAppCreatorAddress",
+      "params": {},
+      "block": "getAppCreatorAddress",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "652": {
+      "op": "bytec 7 // \"apca\"",
+      "defined_out": [
+        "\"apca\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"apca\""
+      ]
+    },
+    "654": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "655": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "656": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "657": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAppVersion",
+      "params": {},
+      "block": "getAppVersion",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "658": {
+      "op": "bytec 6 // \"apv\"",
+      "defined_out": [
+        "\"apv\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"apv\""
+      ]
+    },
+    "660": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "661": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "662": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "663": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetAmountInitial",
+      "params": {},
+      "block": "getAssetAmountInitial",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "664": {
+      "op": "bytec_3 // \"asa_total\"",
+      "defined_out": [
+        "\"asa_total\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa_total\""
+      ]
+    },
+    "665": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "666": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "667": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "668": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetAmount",
+      "params": {},
+      "block": "getAssetAmount",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "669": {
+      "op": "bytec_3 // \"asa_total\"",
+      "defined_out": [
+        "\"asa_total\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa_total\""
+      ]
+    },
+    "670": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "671": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "672": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "673": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetPrice",
+      "params": {},
+      "block": "getAssetPrice",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "674": {
+      "op": "bytec 4 // \"asa_price\"",
+      "defined_out": [
+        "\"asa_price\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa_price\""
+      ]
+    },
+    "676": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "677": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "678": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "679": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getAssetId",
+      "params": {},
+      "block": "getAssetId",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "680": {
+      "op": "bytec_1 // \"asa\"",
+      "defined_out": [
+        "\"asa\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa\""
+      ]
+    },
+    "681": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "682": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "683": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "684": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.getSellPeriodEnd",
+      "params": {},
+      "block": "getSellPeriodEnd",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "685": {
+      "op": "bytec 5 // \"end\"",
+      "defined_out": [
+        "\"end\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"end\""
+      ]
+    },
+    "687": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "688": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "689": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "690": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.buyAsset",
+      "params": {
+        "payment#0": "uint64"
+      },
+      "block": "buyAsset",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "693": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "695": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "0"
+      ]
+    },
+    "696": {
+      "op": "bytec 5 // \"end\"",
+      "defined_out": [
+        "\"end\"",
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "0",
+        "\"end\""
+      ]
+    },
+    "698": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "699": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "tmp%0#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "700": {
+      "op": "<=",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "701": {
+      "error": "Sell period ended",
+      "op": "assert // Sell period ended",
+      "stack_out": []
+    },
+    "702": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "703": {
+      "op": "bytec_1 // \"asa\"",
+      "defined_out": [
+        "\"asa\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa\""
+      ]
+    },
+    "704": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "705": {
+      "op": "swap",
+      "stack_out": [
+        "maybe_exists%1#0",
+        "asset#0"
+      ]
+    },
+    "706": {
+      "op": "dup",
+      "stack_out": [
+        "maybe_exists%1#0",
+        "asset#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "707": {
+      "op": "uncover 2",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "709": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "710": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asset#0",
+        "payment#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "payment#0 (copy)"
+      ]
+    },
+    "712": {
+      "op": "gtxns Sender",
+      "defined_out": [
+        "asset#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "tmp%2#0"
+      ]
+    },
+    "714": {
+      "op": "dup",
+      "defined_out": [
+        "asset#0",
+        "tmp%2#0",
+        "tmp%2#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "tmp%2#0",
+        "tmp%2#0 (copy)"
+      ]
+    },
+    "715": {
+      "op": "uncover 2",
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0",
+        "tmp%2#0 (copy)",
+        "asset#0"
+      ]
+    },
+    "717": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+        "asset#0",
+        "assetBalance#0",
+        "check%0#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0",
+        "assetBalance#0",
+        "check%0#0"
+      ]
+    },
+    "719": {
+      "error": "account opted into asset",
+      "op": "assert // account opted into asset",
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0",
+        "assetBalance#0"
+      ]
+    },
+    "720": {
+      "op": "!",
+      "defined_out": [
+        "asset#0",
+        "tmp%2#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0",
+        "tmp%3#0"
+      ]
+    },
+    "721": {
+      "error": "Asset already bought",
+      "op": "assert // Asset already bought",
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0"
+      ]
+    },
+    "722": {
+      "op": "txn Sender",
+      "defined_out": [
+        "asset#0",
+        "tmp%2#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%2#0",
+        "tmp%5#0"
+      ]
+    },
+    "724": {
+      "op": "==",
+      "defined_out": [
+        "asset#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%6#0"
+      ]
+    },
+    "725": {
+      "op": "bz buyAsset_bool_false@4",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "728": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "asset#0",
+        "payment#0 (copy)"
+      ]
+    },
+    "730": {
+      "op": "gtxns Receiver",
+      "defined_out": [
+        "asset#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%7#0"
+      ]
+    },
+    "732": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "asset#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ]
+    },
+    "734": {
+      "op": "==",
+      "defined_out": [
+        "asset#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%9#0"
+      ]
+    },
+    "735": {
+      "op": "bz buyAsset_bool_false@4",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "738": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "asset#0",
+        "payment#0 (copy)"
+      ]
+    },
+    "740": {
+      "op": "gtxns Amount",
+      "defined_out": [
+        "asset#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%10#0"
+      ]
+    },
+    "742": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "tmp%10#0",
+        "0"
+      ]
+    },
+    "743": {
+      "op": "bytec 4 // \"asa_price\"",
+      "defined_out": [
+        "\"asa_price\"",
+        "0",
+        "asset#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%10#0",
+        "0",
+        "\"asa_price\""
+      ]
+    },
+    "745": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%10#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "746": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0",
+        "tmp%10#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "747": {
+      "op": "<=",
+      "defined_out": [
+        "asset#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "tmp%11#0"
+      ]
+    },
+    "748": {
+      "op": "bz buyAsset_bool_false@4",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "751": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "and_result%0#0",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "and_result%0#0"
+      ]
+    },
+    "752": {
+      "block": "buyAsset_bool_merge@5",
+      "stack_in": [
+        "asset#0",
+        "and_result%0#0"
+      ],
+      "error": "Amount sent should be equal to asset price",
+      "op": "assert // Amount sent should be equal to asset price",
+      "defined_out": [],
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "753": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "0"
+      ]
+    },
+    "754": {
+      "op": "bytec_0 // \"asa_amt\"",
+      "defined_out": [
+        "\"asa_amt\"",
+        "0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "0",
+        "\"asa_amt\""
+      ]
+    },
+    "755": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "756": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "757": {
+      "error": "No more ASA to sell",
+      "op": "assert // No more ASA to sell",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "758": {
+      "op": "itxn_begin"
+    },
+    "759": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "761": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "763": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "0"
+      ]
+    },
+    "764": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "766": {
+      "op": "frame_dig 0",
+      "defined_out": [
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "768": {
+      "op": "dup",
+      "defined_out": [
+        "asset#0",
+        "asset#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "769": {
+      "op": "itxn_field XferAsset",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "771": {
+      "op": "intc_2 // 4",
+      "defined_out": [
+        "4",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "4"
+      ]
+    },
+    "772": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "774": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "0"
+      ]
+    },
+    "775": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "777": {
+      "op": "itxn_submit"
+    },
+    "778": {
+      "op": "itxn_begin"
+    },
+    "779": {
+      "op": "txn Sender",
+      "defined_out": [
+        "asset#0",
+        "inner_txn_params%1%%param_FreezeAssetAccount_idx_0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%1%%param_FreezeAssetAccount_idx_0#0"
+      ]
+    },
+    "781": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%1%%param_FreezeAssetAccount_idx_0#0",
+        "0"
+      ]
+    },
+    "782": {
+      "op": "itxn_field FreezeAssetFrozen",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%1%%param_FreezeAssetAccount_idx_0#0"
+      ]
+    },
+    "784": {
+      "op": "itxn_field FreezeAssetAccount",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "786": {
+      "op": "dup",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "787": {
+      "op": "itxn_field FreezeAsset",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "789": {
+      "op": "pushint 5 // 5",
+      "defined_out": [
+        "5",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "5"
+      ]
+    },
+    "791": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "793": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "0"
+      ]
+    },
+    "794": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "796": {
+      "op": "itxn_submit"
+    },
+    "797": {
+      "op": "itxn_begin"
+    },
+    "798": {
+      "op": "txn Sender",
+      "defined_out": [
+        "asset#0",
+        "inner_txn_params%2%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%2%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "800": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "asset#0",
+        "inner_txn_params%2%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%2%%param_AssetReceiver_idx_0#0",
+        "1"
+      ]
+    },
+    "801": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%2%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "803": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "805": {
+      "op": "dup",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "806": {
+      "op": "itxn_field XferAsset",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "808": {
+      "op": "intc_2 // 4",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "4"
+      ]
+    },
+    "809": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "811": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "0"
+      ]
+    },
+    "812": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "814": {
+      "op": "itxn_submit"
+    },
+    "815": {
+      "op": "itxn_begin"
+    },
+    "816": {
+      "op": "txn Sender",
+      "defined_out": [
+        "asset#0",
+        "inner_txn_params%3%%param_FreezeAssetAccount_idx_0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%3%%param_FreezeAssetAccount_idx_0#0"
+      ]
+    },
+    "818": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%3%%param_FreezeAssetAccount_idx_0#0",
+        "1"
+      ]
+    },
+    "819": {
+      "op": "itxn_field FreezeAssetFrozen",
+      "stack_out": [
+        "asset#0",
+        "asset#0",
+        "inner_txn_params%3%%param_FreezeAssetAccount_idx_0#0"
+      ]
+    },
+    "821": {
+      "op": "itxn_field FreezeAssetAccount",
+      "stack_out": [
+        "asset#0",
+        "asset#0"
+      ]
+    },
+    "823": {
+      "op": "itxn_field FreezeAsset",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "825": {
+      "op": "pushint 5 // 5",
+      "stack_out": [
+        "asset#0",
+        "5"
+      ]
+    },
+    "827": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "829": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "0"
+      ]
+    },
+    "830": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "832": {
+      "op": "itxn_submit"
+    },
+    "833": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "asset#0",
+        "0"
+      ]
+    },
+    "834": {
+      "op": "bytec_0 // \"asa_amt\"",
+      "stack_out": [
+        "asset#0",
+        "0",
+        "\"asa_amt\""
+      ]
+    },
+    "835": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%4#0",
+        "maybe_value%4#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "836": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0",
+        "maybe_value%4#0"
+      ]
+    },
+    "837": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "asset#0",
+        "maybe_value%4#0",
+        "1"
+      ]
+    },
+    "838": {
+      "op": "-",
+      "defined_out": [
+        "asset#0",
+        "new_state_value%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "new_state_value%0#0"
+      ]
+    },
+    "839": {
+      "op": "bytec_0 // \"asa_amt\"",
+      "stack_out": [
+        "asset#0",
+        "new_state_value%0#0",
+        "\"asa_amt\""
+      ]
+    },
+    "840": {
+      "op": "swap",
+      "stack_out": [
+        "asset#0",
+        "\"asa_amt\"",
+        "new_state_value%0#0"
+      ]
+    },
+    "841": {
+      "op": "app_global_put",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "842": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "843": {
+      "block": "buyAsset_bool_false@4",
+      "stack_in": [
+        "asset#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "and_result%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "and_result%0#0"
+      ]
+    },
+    "844": {
+      "op": "b buyAsset_bool_merge@5"
+    },
+    "847": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.sendAlgosToCreator",
+      "params": {},
+      "block": "sendAlgosToCreator",
+      "stack_in": [],
+      "op": "proto 0 0"
+    },
+    "850": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "852": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "854": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "855": {
+      "error": "Allow only the app creator to call this method",
+      "op": "assert // Allow only the app creator to call this method",
+      "stack_out": []
+    },
+    "856": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "858": {
+      "op": "acct_params_get AcctBalance",
+      "defined_out": [
+        "balance#0",
+        "check%0#0"
+      ],
+      "stack_out": [
+        "balance#0",
+        "check%0#0"
+      ]
+    },
+    "860": {
+      "op": "swap",
+      "stack_out": [
+        "check%0#0",
+        "balance#0"
+      ]
+    },
+    "861": {
+      "op": "dup",
+      "stack_out": [
+        "check%0#0",
+        "balance#0",
+        "balance#0 (copy)"
+      ]
+    },
+    "862": {
+      "op": "uncover 2",
+      "defined_out": [
+        "balance#0",
+        "check%0#0"
+      ],
+      "stack_out": [
+        "balance#0",
+        "balance#0",
+        "check%0#0"
+      ]
+    },
+    "864": {
+      "error": "account funded",
+      "op": "assert // account funded",
+      "stack_out": [
+        "balance#0",
+        "balance#0"
+      ]
+    },
+    "865": {
+      "op": "intc 4 // 600000",
+      "defined_out": [
+        "600000",
+        "balance#0"
+      ],
+      "stack_out": [
+        "balance#0",
+        "balance#0",
+        "600000"
+      ]
+    },
+    "867": {
+      "op": ">",
+      "defined_out": [
+        "balance#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "balance#0",
+        "tmp%4#0"
+      ]
+    },
+    "868": {
+      "op": "bz sendAlgosToCreator_after_if_else@3",
+      "stack_out": [
+        "balance#0"
+      ]
+    },
+    "871": {
+      "op": "itxn_begin"
+    },
+    "872": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "874": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "balance#0"
+      ]
+    },
+    "876": {
+      "op": "intc 4 // 600000",
+      "stack_out": [
+        "balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "balance#0",
+        "600000"
+      ]
+    },
+    "878": {
+      "op": "-",
+      "defined_out": [
+        "balance#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0"
+      ]
+    },
+    "879": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "balance#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "881": {
+      "op": "itxn_field Receiver",
+      "stack_out": [
+        "balance#0"
+      ]
+    },
+    "883": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "balance#0"
+      ],
+      "stack_out": [
+        "balance#0",
+        "1"
+      ]
+    },
+    "884": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "balance#0"
+      ]
+    },
+    "886": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "balance#0",
+        "0"
+      ]
+    },
+    "887": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "balance#0"
+      ]
+    },
+    "889": {
+      "op": "itxn_submit"
+    },
+    "890": {
+      "block": "sendAlgosToCreator_after_if_else@3",
+      "stack_in": [
+        "balance#0"
+      ],
+      "retsub": true,
+      "op": "retsub"
+    },
+    "891": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.clawback",
+      "params": {
+        "addr#0": "bytes"
+      },
+      "block": "clawback",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "894": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "896": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "898": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "899": {
+      "error": "Allow only the app creator to call this method",
+      "op": "assert // Allow only the app creator to call this method",
+      "stack_out": []
+    },
+    "900": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "901": {
+      "op": "bytec_1 // \"asa\"",
+      "defined_out": [
+        "\"asa\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa\""
+      ]
+    },
+    "902": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "903": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "904": {
+      "op": "itxn_begin"
+    },
+    "905": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "asset#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "907": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "909": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "addr#0 (copy)",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "addr#0 (copy)"
+      ]
+    },
+    "911": {
+      "op": "itxn_field AssetSender",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "913": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "1"
+      ]
+    },
+    "914": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "916": {
+      "op": "itxn_field XferAsset",
+      "stack_out": []
+    },
+    "918": {
+      "op": "intc_2 // 4",
+      "defined_out": [
+        "4"
+      ],
+      "stack_out": [
+        "4"
+      ]
+    },
+    "919": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "921": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "922": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "924": {
+      "op": "itxn_submit"
+    },
+    "925": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "926": {
+      "op": "bytec_0 // \"asa_amt\"",
+      "defined_out": [
+        "\"asa_amt\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa_amt\""
+      ]
+    },
+    "927": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "928": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%1#0"
+      ]
+    },
+    "929": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "maybe_value%1#0",
+        "1"
+      ]
+    },
+    "930": {
+      "op": "+",
+      "defined_out": [
+        "new_state_value%0#0"
+      ],
+      "stack_out": [
+        "new_state_value%0#0"
+      ]
+    },
+    "931": {
+      "op": "bytec_0 // \"asa_amt\"",
+      "stack_out": [
+        "new_state_value%0#0",
+        "\"asa_amt\""
+      ]
+    },
+    "932": {
+      "op": "swap",
+      "stack_out": [
+        "\"asa_amt\"",
+        "new_state_value%0#0"
+      ]
+    },
+    "933": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "934": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "935": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.clawbackNoIncAmount",
+      "params": {
+        "addr#0": "bytes"
+      },
+      "block": "clawbackNoIncAmount",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "938": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "940": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "942": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "943": {
+      "error": "Allow only the app creator to call this method",
+      "op": "assert // Allow only the app creator to call this method",
+      "stack_out": []
+    },
+    "944": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "945": {
+      "op": "bytec_1 // \"asa\"",
+      "defined_out": [
+        "\"asa\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa\""
+      ]
+    },
+    "946": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "947": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "948": {
+      "op": "itxn_begin"
+    },
+    "949": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "asset#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "951": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "953": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "addr#0 (copy)",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "addr#0 (copy)"
+      ]
+    },
+    "955": {
+      "op": "itxn_field AssetSender",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "957": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "asset#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "1"
+      ]
+    },
+    "958": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "960": {
+      "op": "itxn_field XferAsset",
+      "stack_out": []
+    },
+    "962": {
+      "op": "intc_2 // 4",
+      "defined_out": [
+        "4"
+      ],
+      "stack_out": [
+        "4"
+      ]
+    },
+    "963": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "965": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "966": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "968": {
+      "op": "itxn_submit"
+    },
+    "969": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "970": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.deleteAsset",
+      "params": {},
+      "block": "deleteAsset",
+      "stack_in": [],
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "972": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "974": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "975": {
+      "error": "Allow only the app creator to call this method",
+      "op": "assert // Allow only the app creator to call this method",
+      "stack_out": []
+    },
+    "976": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "977": {
+      "op": "bytec_1 // \"asa\"",
+      "defined_out": [
+        "\"asa\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"asa\""
+      ]
+    },
+    "978": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "979": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "asset#0"
+      ]
+    },
+    "980": {
+      "op": "itxn_begin"
+    },
+    "981": {
+      "op": "itxn_field ConfigAsset",
+      "stack_out": []
+    },
+    "983": {
+      "op": "intc_3 // 3",
+      "defined_out": [
+        "3"
+      ],
+      "stack_out": [
+        "3"
+      ]
+    },
+    "984": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "986": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "987": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "989": {
+      "op": "itxn_submit"
+    },
+    "990": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "991": {
+      "subroutine": "smart_contracts/biz_kor/biz_kor.algo.ts::BizKorE.deleteApplication",
+      "params": {},
+      "block": "deleteApplication",
+      "stack_in": [],
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "993": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "995": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "996": {
+      "error": "Allow only the app creator to call this method",
+      "op": "assert // Allow only the app creator to call this method",
+      "stack_out": []
+    },
+    "997": {
+      "op": "itxn_begin"
+    },
+    "998": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "1000": {
+      "op": "dup",
+      "defined_out": [
+        "inner_txn_params%0%%param_CloseRemainderTo_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "inner_txn_params%0%%param_CloseRemainderTo_idx_0#0"
+      ]
+    },
+    "1001": {
+      "op": "itxn_field CloseRemainderTo",
+      "stack_out": [
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "1003": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "0"
+      ]
+    },
+    "1004": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "1006": {
+      "op": "itxn_field Receiver",
+      "stack_out": []
+    },
+    "1008": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "1009": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "1011": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "1012": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "1014": {
+      "op": "itxn_submit"
+    },
+    "1015": {
+      "retsub": true,
+      "op": "retsub"
+    }
+  }
+}

@@ -12,9 +12,9 @@ describe('BizKor contract', () => {
       debug: true,
       // traceAll: true,
     })
-    registerDebugEventHandlers()
+    registerDebugEventHandlers();
   })
-  beforeEach(localnet.newScope)
+  beforeEach(localnet.newScope);
 
   const deploy = async (account: Address) => {
     const factory = localnet.algorand.client.getTypedAppFactory(BizKorFactory, {
@@ -29,11 +29,9 @@ describe('BizKor contract', () => {
   }
 
   test('says hello', async () => {
-    const { testAccount } = localnet.context
+    const { algorand, testAccount } = localnet.context
     const { client } = await deploy(testAccount)
-
     const result = await client.send.hello({ args: { name: 'World' } })
-
     expect(result.return).toBe('Hello, World')
   })
 
