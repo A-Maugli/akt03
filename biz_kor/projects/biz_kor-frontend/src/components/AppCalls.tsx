@@ -33,10 +33,15 @@ const AppCalls = ({ openModal, setModalState }: AppCallsInterface) => {
     // Instead, you would deploy your contract on your backend and reference it by id.
     // Given the simplicity of the starter contract, we are deploying it on the frontend
     // for demonstration purposes.
+
+    //const factory = algorand.client.getTypedAppFactory(BizKorFactory, { defaultSender: activeAddress! });
+    //const deployResult = await factory.send.create.bare();
+
     const factory = new BizKorFactory({
       defaultSender: activeAddress ?? undefined,
       algorand,
     })
+
     const deployResult = await factory
       .deploy({
         onSchemaBreak: OnSchemaBreak.AppendApp,
